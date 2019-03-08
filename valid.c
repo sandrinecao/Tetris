@@ -6,7 +6,7 @@
 /*   By: scao <scao@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/31 17:38:30 by scao              #+#    #+#             */
-/*   Updated: 2019/03/06 19:25:13 by scao             ###   ########.fr       */
+/*   Updated: 2019/03/08 09:11:23 by mhernand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ int				is_input_valid(char *buff)
 
 char			**make2darray(char *buff, int *count, char **newarray)
 {
-	t_hello		ind;
+	t_check		ind;
 
 	if (!(newarray = (char**)malloc(27 * sizeof(char*))))
 		return (NULL);

@@ -6,7 +6,7 @@
 /*   By: scao <scao@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/31 17:43:42 by scao              #+#    #+#             */
-/*   Updated: 2019/03/08 08:23:53 by scao             ###   ########.fr       */
+/*   Updated: 2019/03/08 09:10:41 by mhernand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,11 +16,11 @@
 # include <fcntl.h>
 # include "libft/libft.h"
 
-typedef struct	s_hello
+typedef struct	s_check
 {
 	int			i;
 	int			j;
-}				t_hello;
+}				t_check;
 
 void			solve(char **shapes, int shapecount);
 int				checkshape(char *block);
